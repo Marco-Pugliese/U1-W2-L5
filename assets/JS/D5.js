@@ -161,8 +161,8 @@ const alfabeto = [
 ];
 const charactersArray = ["g", "n", "u", "z", "d"];
 let value = [];
-for (let i = 0; i < alfabeto.length; i++) {
-  for (let y = 0; y < charactersArray.length; y++)
+for (let y = 0; y < charactersArray.length; y++) {
+  for (let i = 0; i < alfabeto.length; i++)
     if (charactersArray[y] === alfabeto[i]) {
       value.push(charactersArray[y].toUpperCase() + " =  " + i);
     }

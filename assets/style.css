@@ -61,7 +61,7 @@ main {
 
 #guides {
   height: 250px;
-  background-image: url(/assets/images/bg-image.png);
+  background-image: url("/assets/images/bg-image.png");
   background-size: 90%;
 }
 
@@ -88,16 +88,16 @@ main {
   border-radius: 5%;
 }
 #img1 {
-  background-image: url(/assets/images/img_1.jpg);
+  background-image: url("/assets/images/img_1.jpg");
 }
 #img2 {
-  background-image: url(/assets/images/img_2.jpg);
+  background-image: url("/assets/images/img_2.jpg");
 }
 #img3 {
-  background-image: url(/assets/images/img_3.jpg);
+  background-image: url("/assets/images/img_3.jpg");
 }
 #img4 {
-  background-image: url(/assets/images/img_4.jpg);
+  background-image: url("/assets/images/img_4.jpg");
 }
 .center-cover {
   background-position: center;
@@ -120,7 +120,7 @@ main {
 
 #img5 {
   width: 100%;
-  background-image: url(/assets/images/img_9.png);
+  background-image: url("/assets/images/img_9.png");
   height: 500px;
 }
 .section-big-img {
@@ -132,7 +132,7 @@ main {
 #img6 {
   margin-top: 30px;
   width: 100%;
-  background-image: url(/assets/images/img_10.png);
+  background-image: url("/assets/images/img_10.png");
   height: 500px;
 }
 footer {
