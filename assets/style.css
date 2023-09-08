@@ -2,8 +2,6 @@ html {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* HEADER */
 .container {
   background-color: #eaedee;
 }
@@ -13,12 +11,11 @@ html {
 .center {
   text-align: center;
 }
-#logo-wrap {
-  height: 10vh;
-  width: 100%;
+.pad5 {
+  padding: 5px;
 }
-#logo-wrap > img {
-  padding-top: 20px;
+.pad10 {
+  padding: 10px;
 }
 .dark-blue {
   background-color: #22303f;
@@ -26,17 +23,20 @@ html {
 .light-blue {
   background-color: #374759;
 }
+/* HEADER */
+
+#logo-wrap {
+  height: 10vh;
+  width: 100%;
+}
+#logo-wrap > img {
+  padding-top: 20px;
+}
 
 #head-wrap > ul > li {
   display: inline-block;
   padding: 10px 0px;
   padding-right: 25px;
-}
-.pad5 {
-  padding: 5px;
-}
-.pad10 {
-  padding: 10px;
 }
 
 /* MAIN */
@@ -61,7 +61,7 @@ main {
 
 #guides {
   height: 250px;
-  background-image: url("/assets/images/bg-image.png");
+  background-image: url("../assets/images/bg-image.png");
   background-size: 90%;
 }
 
@@ -88,16 +88,21 @@ main {
   border-radius: 5%;
 }
 #img1 {
-  background-image: url("/assets/images/img_1.jpg");
+  background: url(../assets/images/img_1.jpg) center;
+  background-size: cover;
 }
 #img2 {
-  background-image: url("/assets/images/img_2.jpg");
+  background: url(../assets/images/img_2.jpg) center;
+  background-size: cover;
 }
 #img3 {
-  background-image: url("/assets/images/img_3.jpg");
+  background: url(../assets/images/img_3.jpg) center;
+  background-size: cover;
 }
 #img4 {
-  background-image: url("/assets/images/img_4.jpg");
+  background-image: url(../assets/images/img_4.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .center-cover {
   background-position: center;
@@ -120,7 +125,8 @@ main {
 
 #img5 {
   width: 100%;
-  background-image: url("/assets/images/img_9.png");
+  background: url(../assets/images/img_9.png) center;
+  background-size: cover;
   height: 500px;
 }
 .section-big-img {
@@ -132,7 +138,8 @@ main {
 #img6 {
   margin-top: 30px;
   width: 100%;
-  background-image: url("/assets/images/img_10.png");
+  background: url(../assets/images/img_10.png) center;
+  background-size: cover;
   height: 500px;
 }
 footer {
