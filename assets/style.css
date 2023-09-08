@@ -1,0 +1,151 @@
+html {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.container {
+  background-color: #eaedee;
+}
+.left25 {
+  margin-left: 25px;
+}
+.center {
+  text-align: center;
+}
+#logo-wrap {
+  height: 10vh;
+  width: 100%;
+}
+#logo-wrap > img {
+  padding-top: 20px;
+}
+.dark-blue {
+  background-color: #22303f;
+}
+.light-blue {
+  background-color: #374759;
+}
+
+#head-wrap > ul > li {
+  display: inline-block;
+  padding: 10px 0px;
+  padding-right: 25px;
+}
+.pad5 {
+  padding: 5px;
+}
+.pad10 {
+  padding: 10px;
+}
+
+/* MAIN */
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+#gift-wrap {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background-color: #f56600;
+  padding: 12px;
+  width: 100%;
+  font-size: 1.1em;
+}
+#gift-wrap:first-child:hover {
+  transition: all 1.3s;
+  color: rgba(149, 230, 29, 0.889);
+  background-color: #f56600;
+  width: 100%;
+}
+
+#guides {
+  height: 250px;
+  background-image: url(/assets/images/bg-image.png);
+  background-size: 90%;
+}
+
+#guides > h1 {
+  font-size: 2.2em;
+  font-weight: 600;
+  padding-top: 90px;
+}
+
+#guides > h3 {
+  margin-top: 40px;
+  font-size: 1.2em;
+}
+#images {
+  width: 100%;
+  margin: 50px auto;
+  background-color: white;
+}
+#images > div {
+  display: inline-block;
+  width: 20%;
+  height: 375px;
+  margin: 30px 10px;
+  border-radius: 5%;
+}
+#img1 {
+  background-image: url(/assets/images/img_1.jpg);
+}
+#img2 {
+  background-image: url(/assets/images/img_2.jpg);
+}
+#img3 {
+  background-image: url(/assets/images/img_3.jpg);
+}
+#img4 {
+  background-image: url(/assets/images/img_4.jpg);
+}
+.center-cover {
+  background-position: center;
+  background-size: cover;
+}
+#images > section {
+  padding-top: 25px;
+  margin-left: 8%;
+  text-align: left;
+  color: black;
+  font-size: 1.4em;
+}
+.blue {
+  display: inline-block;
+  margin-left: 15px;
+  color: #43829b;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+#img5 {
+  width: 100%;
+  background-image: url(/assets/images/img_9.png);
+  height: 500px;
+}
+.section-big-img {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+}
+#img6 {
+  margin-top: 30px;
+  width: 100%;
+  background-image: url(/assets/images/img_10.png);
+  height: 500px;
+}
+footer {
+  margin-top: 20px;
+}
+footer > div.light-blue {
+  padding: 20px;
+}
+footer > div > a {
+  color: white;
+}
+
+footer > div > img {
+  width: 20%;
+  padding: 80px;
+}
