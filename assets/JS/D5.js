@@ -121,7 +121,7 @@ while (i < numericArray.length) {
   if (numericArray[i] !== 32) {
     console.log(numericArray[i]);
   } else {
-    console.log("We found it!");
+    console.log("We found it! : " + numericArray[i]);
     break;
   }
 
@@ -136,7 +136,7 @@ while (i < numericArray.length) {
 */
 console.log("ESERCIZIO 10: ");
 const alfabeto = [
-  "0",
+  "",
   "a",
   "b",
   "c",
